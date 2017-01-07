@@ -29,7 +29,7 @@ ADD https://www.baidu.com/img/bd_logo1.png /opt/
 ENV WEBAPP_PORT=9090
 
 #设置工作目录
-WOEKDIR /opt/
+WORKDIR /opt/
 
 #设置启动命令
 ENTRYPOINT ["ls"]
