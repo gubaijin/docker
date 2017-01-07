@@ -8,7 +8,7 @@ USER root
 
 #执行操作
 RUN yum update -y
-RUN yum install -y nginx
+RUN yum install -y java
 
 #使用&&拼接命令
 RUN touch test.txt && echo "abc" >>abc.txt
