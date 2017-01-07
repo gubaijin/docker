@@ -7,7 +7,7 @@ MAINTAINER ***u "***u@163.com"
 USER root
 
 #执行操作
-RUN yum update
+RUN yum update -y
 RUN yum install -y nginx
 
 #使用&&拼接命令
